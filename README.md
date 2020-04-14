@@ -4,7 +4,7 @@ WooCommerce Plugin to connect to AR Configwise Platform
 
 ![]( https://www.configwise.io/hubfs/Logos/ConfigWise_logo.png "ConfigWise Logo")
 
-[https://www.configwise.io](www.configwise.io)
+https://configwise.io
 
 # ConfigWise AR Module (WooCommerce)
 
