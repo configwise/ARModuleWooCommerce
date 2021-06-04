@@ -165,7 +165,7 @@ class configwise_arm_admin {
 	/**
 	 *
 	 */
-	public function configwise_ar_enable_callback()
+	public function ar_enable_callback()
 	{
 		printf(
 			'<input type="checkbox" id="configwise_ar_enable" name="%s[configwise_ar_enable]" %s />',
@@ -177,12 +177,12 @@ class configwise_arm_admin {
 	/**
 	 *
 	 */
-	public function configwise_deeplink_url_callback()
+	public function deeplink_url_callback()
 	{
 		printf(
-			'<input type="text" id="configwise_deeplink_url" name="%s[configwise_deeplink_url]" value="%s" />',
+			'<input type="text" id="configwise_deeplink_url" width="150" name="%s[configwise_deeplink_url]" value="%s" />',
 			$this->option_name,
-			isset( $this->options['configwise_deeplink_url']) ? $this->options['configwise_deeplink_url'] : 'https://configwise-ipd.app.link/AR'
+			isset( $this->options['configwise_deeplink_url']) ? $this->options['configwise_deeplink_url'] : 'https://arproduct.app.link/AR'
 		);
 	}
 }
